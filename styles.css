@@ -4,3 +4,8 @@ body {
     background-color: black;
     color: white;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
