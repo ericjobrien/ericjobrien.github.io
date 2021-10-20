@@ -1,11 +1,50 @@
 body {
-    margin-left: auto;
-    margin-right: auto;
     background-color: black;
     color: white;
+    font-family: 'Andada Pro', serif;
 }
 
-header {
+#header {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    background-color: cadetblue;
+    align-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 2vh;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2vw;
+}
+
+.section_title, #skills_table, #linkedin_link, #project_github{
+    display: flex;
+    justify-content: center;
+}
+.welcome_about {
+    display: flex;
+    justify-content: center;
+}
+#profile_picture {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.about_about {
+    display: flex;
+    justify-content: center;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.data {
+    width: 10vw;
+    height: 10vh;
+    background-color: cadetblue;
+    text-align: center;
 }

@@ -4,90 +4,78 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="Eric O'Brien | Software Engineer" content="Personal Portfolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"/>
-    <title>Eric O'Brien | Software Engineer</title>
+    <title>Eric O'Brien | Problem Solver</title>
 </head>
 <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <header>
+    <header id="header">
         <div id="name">
             <h1>Eric O'Brien</h1>
             <h2>Software Engineer | Detroit, MI</h2>
         </div>
         <nav class='nav'>
            <div class="nav_menu">
-               <ul class="menu_items">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-               </ul>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
            </div> 
         </nav>
     </header>
     <section id="about" class='about_section'>
         <div class="welcome_about">
-
+            <img src="https://media-exp1.licdn.com/dms/image/D5635AQGEiPH8qPM1-w/profile-framedphoto-shrink_200_200/0/1632510661102?e=1634853600&v=beta&t=TbnnDfEVLk4g0lwnvv0W4Lg145Ul7g1ra5inc17ZLp4"/>
         </div>
         <div class="about_about">
-            <p> My name is Eric O'Brien.  I love learning and solving complicated problems</p>
-            <p> Technology has been something I've always loved, from the first
-                moment I opened a Nintendo on Christmas.
-            </p>
-            <p> Recently, I decided to pursue a career transition where my love
-                for tech meets my desire to learn and solve problems.
-            </p>
-            <p> I enrolled in the Java Software Engineering course
-                through Devmountain in August 2021. Upon graduation,
-                I will be seeking employment as a Java developer.
-            </p>
-            <p> In my spare time, I enjoy reading (mostly literature), watching
-                movies and streaming shows, and relaxing
-                with friends and family.
-            </p>
+            Passionate about technology and connecting with people.
+            <br>
+            <br>
+            From the first moment I opened a Nintendo as a six year-old kid, technology and
+            I have gotten along famously.  Recently, I decided to pursue a career transition, allowing my love
+            for tech to meet my desire to learn and solve complex problems.
+            In August 2021, I enrolled in a Java Software Engineer course, offered through 
+            Devmountain. Upon graduation, I will be seeking employment as a Java developer.
+            In my spare time, I enjoy reading (mostly literature), watching
+            movies and streaming shows, and relaxing with friends and family.
         </div>
 
     </section>
     <section id="skills" class='skills_section'>
         <h2 class="section_title">Skills</h2>
-        <ul class="skills_list">
-            <li>
+        <table id="skills_table">
+            <td class="data">
                <p>JavaScript</p>
-            </li>
-            <li>
+            </td>
+            <td class="data">
                 <p>HTML5</p>
-            </li>
-            <li>
+            </td>
+            <td class="data">
                 <p>CSS3</p>
-            </li>
-            <li>
+            </td>
+            <td class="data">
                 <p>NODE.js</p>
-            </li>
-            <li>
+            </td>
+            <td class="data">
                 <p>EXPRESS.js</p>
-            </li>
-            <li>
+            </td>
+            <td class="data">
                 <p>GIT</p>
-            </li>
-        </ul>
+            </td>
+        </table>
     </section>
     <section id="projects" class='projects_section'>
         <h2 class="section_title">Projects</h2>
         <div>
-            <p>Source code for this project is on <a href="https://github.com/ericjobrien/ericjobrien.github.io">github</a></p>    
+            <p id="project_github">Source code for this project is on  <a href="https://github.com/ericjobrien/ericjobrien.github.io">github</a></p>    
         </div>
     </section>
     <section id="contact" class='contact_section'>
         <h2 class="section_title">Contact</h2>
-        <a href="https://www.linkedin.com/in/eric-o-brien44/">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/eric-o-brien44/" id="linkedin_link">LinkedIn</a>
     </section>
 </body>
 </html>
