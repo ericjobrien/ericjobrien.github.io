@@ -4,42 +4,9 @@ body {
     font-family: 'Andada Pro', serif;
 }
 
-#header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    background-color: cadetblue;
-    align-content: flex-end;
-    align-items: flex-end;
-    margin-bottom: 2vh;
-}
-
-.nav_menu{
-    display: flex;
-    justify-content: flex-end;
-    column-gap: 2vw;
-}
-
 .section_title, #skills_table, #linkedin_link, #project_github{
     display: flex;
     justify-content: center;
-}
-.welcome_about {
-    display: flex;
-    justify-content: center;
-}
-#profile_picture {
-    width: 10vw;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2vh;
-}
-
-.about_about {
-    display: flex;
-    justify-content: center;
-    margin-right: 10vw;
-    margin-left: 10vw;
 }
 
 .data {
@@ -55,3 +22,68 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+/* Hero section below here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Andada Pro', serif;
+    font-size: 18px;;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;;
+    background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.336)), url('https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .info h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container .info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.container .info p {
+    font-size: 1.2rem;
+    max-width: 60%;
+}
+
+.container .info a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 0.5em 1.5em;
+    margin-top: 2rem;
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+/*  Hero section above here */
