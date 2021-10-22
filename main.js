@@ -15,16 +15,14 @@ const contactInteractivity = () => {
     const contactBtn = document.getElementById('contact_btn');
     contactBtn.style.cursor = 'pointer';
     contactBtn.addEventListener('mouseover', () => {
-        contactBtn.style.transition = '2s';
-        contactBtn.style.boxShadow = '3px 8px 8px grey';
-        contactBtn.style.opacity = '0.75';
+        contactBtn.style.opacity = '0.90';
     })
     contactBtn.addEventListener('mouseout', () => {
         contactBtn.style.boxShadow = null;
         contactBtn.style.opacity = 1;
     })
-
     contactBtn.addEventListener('click', () => {
+        contactBtn.style.opacity = '0.75';
         window.open('https://www.linkedin.com/in/eric-o-brien44/');
     })
 }
