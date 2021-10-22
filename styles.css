@@ -143,9 +143,10 @@ section:nth-child(3) {
 }
 
 section:nth-child(4) {
-    background-image: url('https://img2.chinadaily.com.cn/images/202110/21/617103b5a310cdd3d814ca7d.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.336)), url('https://img2.chinadaily.com.cn/images/202110/21/617103b5a310cdd3d814ca7d.jpeg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;    
 }
 
 
