@@ -45,8 +45,6 @@ h2 {
 
 #horrorscope_container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 50rem;
     border-radius: 15px;
     text-align: center;
@@ -73,12 +71,18 @@ iframe {
     width: 25rem;
     border-radius: 15px;
     display: flex;
-    justify-content: flex-start;
+    align-content: space-between;
     align-items: center;
     flex-direction: column;
-    align-content: space-between;
     row-gap: 1rem;
 
+}
+
+.tech_container {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    row-gap: 10px;
 }
 
 .project_data {
@@ -86,6 +90,7 @@ iframe {
     font-size: .85rem;
     width: 5rem;
     height: 5rem;
+    border-radius: 15px;
 }
 
 #contact {
@@ -119,13 +124,15 @@ html {
     background-size: cover;
     color: white;
 
-}#name_transition {
+}
+
+/* #name_transition {
     transition: 5s;
 }
 
 #intro_transition {
     transition: 5s;
-}
+} */
 
 .container {
     width: 90%;
