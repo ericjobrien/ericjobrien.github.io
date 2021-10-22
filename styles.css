@@ -38,11 +38,14 @@ h2 {
 
 .data {
     width: 10vw;
-    height: 10vh;
-    background-color: cadetblue;
     text-align: center;
+    vertical-align: bottom;
 }
 
+.data img {
+    max-height: 4rem;
+    max-width: 6rem;
+}
 #horrorscope_container {
     display: flex;
     max-width: 50rem;
@@ -71,7 +74,6 @@ iframe {
     width: 25rem;
     border-radius: 15px;
     display: flex;
-    align-content: space-between;
     align-items: center;
     flex-direction: column;
     row-gap: 1rem;
@@ -85,12 +87,19 @@ iframe {
     row-gap: 10px;
 }
 
+.project_table {
+    border-spacing: .3rem;
+}
 .project_data {
-    background-color: cadetblue;
     font-size: .85rem;
-    width: 5rem;
+    width: 5.1rem;
     height: 5rem;
-    border-radius: 15px;
+    vertical-align: bottom;
+    column-gap: 2px;
+}
+
+.project_data img {
+    height: 3rem;
 }
 
 #contact {
@@ -129,7 +138,8 @@ html {
 /* #name_transition {
     transition: 5s;
 }
-
+https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=820&q=80
+https://www.pexels.com/video/close-up-video-of-a-slice-strawberry-7677604/
 #intro_transition {
     transition: 5s;
 } */
