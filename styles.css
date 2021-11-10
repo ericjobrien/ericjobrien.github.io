@@ -107,11 +107,17 @@ iframe {
     height: 10rem;
 }
 
-#contact_images{
-    background-color: cadetblue;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
+.contact_data {
+    font-size: .85rem;
+    width: 5.1rem;
+    height: 5rem;
+    vertical-align: bottom;
+    column-gap: 2px;
+    text-align: center;
+}
+
+.contact_data img {
+    height: 3rem;
 }
 
 /* Hero section below here */
