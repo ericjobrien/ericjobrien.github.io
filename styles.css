@@ -107,6 +107,13 @@ iframe {
     height: 10rem;
 }
 
+#contact_images{
+    background-color: cadetblue;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 /* Hero section below here */
 * {
     padding: 0;
