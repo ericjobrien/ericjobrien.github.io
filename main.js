@@ -10,21 +10,21 @@ window.addEventListener('scroll', function() {
 
 
 
-const contactInteractivity = () => {
+// const contactInteractivity = () => {
 
-    const contactBtn = document.getElementById('contact_btn');
-    contactBtn.style.cursor = 'pointer';
-    contactBtn.addEventListener('mouseover', () => {
-        contactBtn.style.opacity = '0.90';
-    })
-    contactBtn.addEventListener('mouseout', () => {
-        contactBtn.style.boxShadow = null;
-        contactBtn.style.opacity = 1;
-    })
-    contactBtn.addEventListener('click', () => {
-        contactBtn.style.opacity = '0.75';
-        window.open('https://www.linkedin.com/in/eric-o-brien44/');
-    })
-}
+//     const contactBtn = document.getElementById('contact_btn');
+//     contactBtn.style.cursor = 'pointer';
+//     contactBtn.addEventListener('mouseover', () => {
+//         contactBtn.style.opacity = '0.90';
+//     })
+//     contactBtn.addEventListener('mouseout', () => {
+//         contactBtn.style.boxShadow = null;
+//         contactBtn.style.opacity = 1;
+//     })
+//     contactBtn.addEventListener('click', () => {
+//         contactBtn.style.opacity = '0.75';
+//         window.open('https://www.linkedin.com/in/eric-o-brien44/');
+//     })
+// }
 
-contactInteractivity();
+// contactInteractivity();
