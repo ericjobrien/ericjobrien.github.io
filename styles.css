@@ -137,7 +137,7 @@ html {
     height: 100vh;;
     background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.336)), url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
-    background-position: center;
+   
     background-size: cover;
     color: white;
 
